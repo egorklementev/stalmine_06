@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:guitar.obj",
+    "textures": {
+      "#Material": "stalmine:items/guitar"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [0, 180, -45],
+          "translation": [-0.1, -0.1, 0],
+          "scale": [0.11, 0.11, 0.11]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "fixed": {
+          "rotation": [0, 0, 45],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_righthand": {
+          "rotation": [60, 0, 0],
+          "translation": [-0.05, 0.05, 0.2],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [60, 0, 0],
+          "translation": [0.05, 0.05, 0.2],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, 0, 0],
+          "translation": [-0.25, 0.25, 0.35],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0.25, 0.25, 0.35],
+          "scale": [0.125, 0.125, 0.125]
+        }
+      }
+    }]
+  }
+}

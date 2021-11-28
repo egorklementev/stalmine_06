@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:arm_exo_chest.obj",
+    "textures": {
+      "#Material": "stalmine:armor/arm_heavy_unknown"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [30, -30, 0],
+          "translation": [0.05, 0.15, 0],
+          "scale": [0.275, 0.275, 0.275]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "fixed": {
+          "rotation": [0, 0, -45],
+          "translation": [0, 0, 0],
+          "scale": [0.175, 0.175, 0.175]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.25, 0.35, 0.25],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [-0.25, 0.35, 0.25],
+          "scale": [0.1, 0.1, 0.1]
+        }
+      }
+    }]
+  }
+}

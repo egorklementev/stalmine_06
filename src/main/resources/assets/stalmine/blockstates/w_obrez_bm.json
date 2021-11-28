@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:w_obrez_bm.obj",
+    "textures": {
+      "#Material": "stalmine:items/w_toz_bm"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [0, 180, -45],
+          "translation": [0, 0.1, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "fixed": {
+          "rotation": [0, 0, 45],
+          "translation": [0, 0, 0],
+          "scale": [0.075, 0.075, 0.075]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.1, 0.05, -0.2],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [-0.1, 0.05, -0.2],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -100, 0],
+          "translation": [-0.1, 0.25, -0.35],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 80, 0],
+          "translation": [-0.1, 0.25, -0.35],
+          "scale": [0.3, 0.3, 0.3]
+        }
+      }
+    }]
+  }
+}

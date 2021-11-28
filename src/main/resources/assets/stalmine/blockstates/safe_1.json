@@ -1,0 +1,168 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:safe_1.obj",
+    "textures": {
+      "#Material": "stalmine:blocks/safe"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "facing": {
+      "north": {
+        "transform": {
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "translation": [
+            -0.175,
+            0.5,
+            -0.175
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      },
+      "south": {
+        "transform": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "translation": [
+            0.175,
+            0.5,
+            0.175
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      },
+      "west": {
+        "transform": {
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "translation": [
+            -0.175,
+            0.5,
+            0.175
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      },
+      "east": {
+        "transform": {
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "translation": [
+            0.175,
+            0.5,
+            -0.175
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      },
+      "up": {
+        "transform": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "translation": [
+            0.25,
+            -0.25,
+            0.25
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      },
+      "down": {
+        "transform": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "translation": [
+            0.25,
+            -0.25,
+            0.25
+          ],
+          "scale": [
+            0.35,
+            0.35,
+            0.35
+          ]
+        }
+      }
+    },
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [60, 0, 0],
+          "translation": [0.25, -0.1, 0],
+          "scale": [0.2, 0.2, 0.2]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "fixed": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        }
+      }
+    }]
+  }
+}

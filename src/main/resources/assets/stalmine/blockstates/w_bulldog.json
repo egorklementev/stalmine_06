@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:w_bulldog.obj",
+    "textures": {
+      "#Material": "stalmine:items/w_bulldog"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [0, 180, -45],
+          "translation": [0, 0, 0],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.11, 0.11, 0.11]
+        },
+        "fixed": {
+          "rotation": [0, 0, 45],
+          "translation": [0, 0, 0],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.05, 0.1, -0.1],
+          "scale": [0.125, 0.125, 0.152]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0.05, 0.1, -0.1],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -100, 0],
+          "translation": [-0.25, 0.4, 0.2],
+          "scale": [0.135, 0.135, 0.135]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 80, 0],
+          "translation": [-0.25, 0.4, 0.2],
+          "scale": [0.135, 0.135, 0.135]
+        }
+      }
+    }]
+  }
+}

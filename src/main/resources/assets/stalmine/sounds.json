@@ -1,0 +1,784 @@
+{
+  "fireplace": {
+    "category": "block",
+    "sounds": [
+        "stalmine:fireplace"
+    ]
+  },
+  "lighter": {
+    "category": "item",
+    "sounds": [
+        "stalmine:lighter"
+    ]
+  },
+  "bag_open": {
+    "category": "block",
+    "sounds": [
+        "stalmine:bag_open"
+    ]
+  },
+  "bag_close": {
+    "category": "block",
+    "sounds": [
+        "stalmine:bag_close"
+    ]
+  },
+  "safe_open_1": {
+    "category": "block",
+    "sounds": [
+        "stalmine:safe_open_1"
+    ]
+  },
+  "safe_open_2": {
+    "category": "block",
+    "sounds": [
+        "stalmine:safe_open_2"
+    ]
+  },
+  "safe_open_3": {
+    "category": "block",
+    "sounds": [
+        "stalmine:safe_open_2"
+    ]
+  },
+  "safe_open_4": {
+    "category": "block",
+    "sounds": [
+        "stalmine:safe_open_1"
+    ]
+  },
+  "geiger": {
+    "category": "block",
+    "sounds": [
+      "stalmine:geiger_1",
+      "stalmine:geiger_2",
+      "stalmine:geiger_3",
+      "stalmine:geiger_4",
+      "stalmine:geiger_5",
+      "stalmine:geiger_6",
+      "stalmine:geiger_7",
+      "stalmine:geiger_8"
+    ]
+  },
+  "psy": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:psy_1",
+        "stream": true
+      },
+      {
+        "name": "stalmine:psy_2",
+        "stream": true
+      }
+    ]
+  },
+  "term": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:term",
+        "stream": true
+      }
+    ]
+  },
+
+  "w_psm": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_psm"
+    ]
+  },
+  "w_aks74u": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_aks74u"
+    ]
+  },
+  "w_toz_bm": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_toz_bm"
+    ]
+  },
+  "w_toz_bm_reload_1": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_toz_bm_reload_1"
+    ]
+  },
+  "w_toz_bm_reload_2": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_toz_bm_reload_2"
+    ]
+  },
+  "pistol_reload": {
+    "category": "item",
+    "sounds": [
+        "stalmine:pistol_reload"
+    ]
+  },
+  "rifle_reload": {
+    "category": "item",
+    "sounds": [
+        "stalmine:rifle_reload"
+    ]
+  },
+  "w_empty": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_empty"
+    ]
+  },
+  "w_grenload": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_grenload"
+    ]
+  },
+  "w_grenshoot": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_grenshoot"
+    ]
+  },
+  "w_grenchange": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_grenchange"
+    ]
+  },
+  "w_fn57": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_fn57"
+    ]
+  },
+  "w_ar57": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_ar57"
+    ]
+  },
+  "w_stcpw": {
+    "category": "item",
+    "sounds": [
+      "stalmine:w_stcpw"
+    ]
+  },
+  "nvd_start": {
+    "category": "item",
+    "sounds": [
+      "stalmine:nvd_start"
+    ]
+  },
+  "nvd_off": {
+    "category": "item",
+    "sounds": [
+      "stalmine:nvd_off"
+    ]
+  },
+  "nvd_loop": {
+    "category": "item",
+    "sounds": [
+      "stalmine:nvd_loop"
+    ]
+  },
+  "electra_idle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:electra_idle",
+        "stream": true
+      }
+    ]
+  },
+  "electra_hit": {
+    "category": "block",
+    "sounds": [
+        "stalmine:electra_hit"
+    ]
+  },
+  "electra_blast": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:electra_blast",
+        "stream": true
+      }
+    ]
+  },
+  "funnel_idle": {
+    "category": "block",
+    "sounds": [
+        "stalmine:funnel_idle_0",
+        "stalmine:funnel_idle_1"
+    ]
+  },
+  "funnel_hit": {
+    "category": "block",
+    "sounds": [
+        "stalmine:funnel_hit_0",
+        "stalmine:funnel_hit_1"
+    ]
+  },
+  "funnel_blast": {
+    "category": "block",
+    "sounds": [
+        "stalmine:funnel_blast_0",
+        "stalmine:funnel_blast_1",
+        "stalmine:funnel_blast_2"
+    ]
+  },
+  "springboard_blast": {
+    "category": "block",
+    "sounds": [
+        "stalmine:springboard_blast"
+    ]
+  },
+  "springboard_idle": {
+    "category": "block",
+    "sounds": [
+        "stalmine:springboard_idle"
+    ]
+  },
+  "carousel_blast": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:carousel_blast",
+        "stream": true
+      }
+    ]
+  },
+  "carousel_idle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:carousel_idle",
+        "stream": true
+      }
+    ]
+  },
+  "deepfry_blast": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:deepfry_blast",
+        "stream": true
+      }
+    ]
+  },
+  "steam_idle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:steam_idle",
+        "stream": true
+      }
+    ]
+  },
+  "steam_blast": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:steam_blast",
+        "stream": true
+      }
+    ]
+  },
+  "soda_idle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:soda_idle",
+        "stream": true
+      }
+    ]
+  },
+  "soda_blast": {
+    "category": "block",
+    "sounds": [
+        "stalmine:soda_blast"
+    ]
+  },
+  "tele_work": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:tele_work_1",
+        "stream": true
+      },
+	  {
+        "name": "stalmine:tele_work_2",
+        "stream": true
+      }
+    ]
+  },
+  "tele_idle": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "stalmine:tele_idle_1",
+        "stream": true
+      },
+	  {
+        "name": "stalmine:tele_idle_2",
+        "stream": true
+      }
+    ]
+  },
+  "drink": {
+    "category": "item",
+    "sounds": [
+        "stalmine:drink"
+    ]
+  },
+  "food": {
+    "category": "item",
+    "sounds": [
+        "stalmine:food"
+    ]
+  },
+  "vodka": {
+    "category": "item",
+    "sounds": [
+        "stalmine:vodka"
+    ]
+  },
+  "medkit": {
+    "category": "item",
+    "sounds": [
+        "stalmine:medkit"
+    ]
+  },
+  "pills": {
+    "category": "item",
+    "sounds": [
+        "stalmine:pills"
+    ]
+  },
+  "pda_news": {
+    "category": "neutral",
+    "sounds": [
+        "stalmine:pda_news"
+    ]
+  },
+  "pda_objective": {
+    "category": "neutral",
+    "sounds": [
+        "stalmine:pda_objective"
+    ]
+  },
+  "pda_tip": {
+    "category": "neutral",
+    "sounds": [
+        "stalmine:pda_tip"
+    ]
+  },
+  "radio": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "stalmine:radio",
+        "stream": true
+      }
+    ]
+  },
+  "w_p90": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_p90"
+    ]
+  },
+  "w_bulldog": {
+    "category": "item",
+    "sounds": [
+        "stalmine:w_bulldog"
+    ]
+  },
+  "w_bulldog_reload_1": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_1",
+			"stream": true
+		}
+    ]
+  },
+  "w_bulldog_reload_2": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_2",
+			"stream": true
+		}
+    ]
+  },
+  "w_bulldog_reload_3": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_3",
+			"stream": true
+		}
+    ]
+  },
+  "w_bulldog_reload_4": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_4",
+			"stream": true
+		}
+    ]
+  },
+  "w_bulldog_reload_5": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_5",
+			"stream": true
+		}
+    ]
+  },
+  "w_bulldog_reload_6": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_bulldog_reload_6",
+			"stream": true
+		}
+    ]
+  },
+  "w_ak74m": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_ak74m"
+    ]
+  },
+  "w_an94": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_an94"
+    ]
+  },
+  "w_vss": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_vss"
+    ]
+  },
+  "w_p99": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_p99"
+    ]
+  },
+  "w_mp5": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_mp5"
+    ]
+  },
+  "w_gauss": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_gauss"
+    ]
+  },
+  "w_g36": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_g36"
+    ]
+  },
+  "w_groza": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_groza"
+    ]
+  },
+  "w_m1911": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_m1911"
+    ]
+  },
+  "w_l85": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_l85"
+    ]
+  },
+  "w_beretta": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_beretta"
+    ]
+  },
+  "w_deagle": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_deagle"
+    ]
+  },
+  "w_fn2000": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_fn2000"
+    ]
+  },
+  "w_fort12": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_fort12"
+    ]
+  },
+  "w_hpsa": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_hpsa"
+    ]
+  },
+  "w_lr300": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_lr300"
+    ]
+  },
+  "w_pb": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_pb"
+    ]
+  },
+  "w_pm": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_pm"
+    ]
+  },
+  "w_rpg7": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_rpg7"
+    ]
+  },
+  "w_sig220": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_sig220"
+    ]
+  },
+  "w_sig550": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_sig550"
+    ]
+  },
+  "w_spas12": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_spas12"
+    ]
+  },
+  "w_svd": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_svd"
+    ]
+  },
+  "w_svu": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_svu"
+    ]
+  },
+  "w_toz34": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_toz34"
+    ]
+  },
+  "w_usp45": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_usp45"
+    ]
+  },
+  "w_val": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_val"
+    ]
+  },
+  "w_rpg7_reload": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_rpg7_reload"
+    ]
+  },
+  "w_sg_reload_1": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_1",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_2": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_2",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_3": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_3",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_4": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_4",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_5": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_5",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_6": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_6",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_7": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_7",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_8": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_8",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_9": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_9",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_10": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_10",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_11": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_11",
+			"stream": true
+		}
+    ]
+  },
+  "w_sg_reload_12": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:w_sg_reload_12",
+			"stream": true
+		}
+    ]
+  },
+  "w_pkm": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_pkm"
+    ]
+  },
+  "w_pkm_reload": {
+    "category": "item",
+    "sounds": [
+		"stalmine:w_pkm_reload"
+    ]
+  },
+  "guitar": {
+    "category": "item",
+    "sounds": [
+		{
+			"name": "stalmine:guitar_a",
+			"stream": true
+		},
+		{
+			"name": "stalmine:guitar_b",
+			"stream": true
+		},
+		{
+			"name": "stalmine:guitar_c",
+			"stream": true
+		},
+		{
+			"name": "stalmine:guitar_d",
+			"stream": true
+		},
+		{
+			"name": "stalmine:guitar_e",
+			"stream": true
+		},
+		{
+			"name": "stalmine:guitar_f",
+			"stream": true
+		}
+    ]
+  },
+  "computer_on": {
+    "category": "item",
+    "sounds": [
+		"stalmine:computer_on"
+    ]
+  },
+  "bandage": {
+    "category": "item",
+    "sounds": [
+		"stalmine:bandage"
+    ]
+  }
+}

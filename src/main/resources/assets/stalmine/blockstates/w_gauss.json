@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:w_gauss.obj",
+    "textures": {
+      "#Material": "stalmine:items/w_gauss"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [0, 180, -45],
+          "translation": [-0.1, 0, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "fixed": {
+          "rotation": [0, 0, 45],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.1, 0.1, 0.1],
+          "scale": [0.25, 0.25, 0.25]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0.0, 0.1, 0.1],
+          "scale": [0.25, 0.25, 0.25]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -100, 0],
+          "translation": [-0.25, 0.395, 0.15],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 80, 0],
+          "translation": [-0.1, 0.395, 0.1],
+          "scale": [0.3, 0.3, 0.3]
+        }
+      }
+    }]
+  }
+}

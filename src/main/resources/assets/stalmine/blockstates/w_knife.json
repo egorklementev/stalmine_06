@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:w_knife.obj",
+    "textures": {
+      "#Material": "stalmine:items/w_knife"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [60, -45, 60],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.07, 0.07, 0.07]
+        },
+        "fixed": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "thirdperson_righthand": {
+          "rotation": [90, 0, 0],
+          "translation": [0, 0, 0.1],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [90, 0, 0],
+          "translation": [0, 0, 0.1],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "firstperson_righthand": {
+          "rotation": [105, 0, -10],
+          "translation": [-0.2, 0.35, 0.35],
+          "scale": [0.04, 0.04, 0.04]
+        },
+        "firstperson_lefthand": {
+          "rotation": [105, 0, -10],
+          "translation": [-0.2, 0.35, 0.35],
+          "scale": [0.04, 0.04, 0.04]
+        }
+      }
+    }]
+  }
+}

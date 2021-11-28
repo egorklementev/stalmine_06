@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:am_m430.obj",
+    "textures": {
+      "#Material": "stalmine:items/am_m430"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [30, 135, 30],
+          "translation": [0.05, 0.1, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "fixed": {
+          "rotation": [0, 0, -45],
+          "translation": [0, 0, 0],
+          "scale": [0.125, 0.125, 0.125]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.25, 0.35, 0.25],
+          "scale": [0.05, 0.05, 0.05]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [-0.25, 0.35, 0.25],
+          "scale": [0.05, 0.05, 0.05]
+        }
+      }
+    }]
+  }
+}

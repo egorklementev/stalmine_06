@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "stalmine:kissel" },
+        "inventory": { "model": "stalmine:field_block" }
+    }
+}

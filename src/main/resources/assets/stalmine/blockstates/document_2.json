@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:doc_2.obj",
+    "textures": {
+      "#Material": "stalmine:items/doc_2"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [60, -30, 15],
+          "translation": [-0.025, -0.05, 0],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "fixed": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0, 0, 0],
+          "scale": [0.1, 0.1, 0.1]
+        },
+        "firstperson_righthand": {
+          "rotation": [60, 180, 0],
+          "translation": [-0.25, 0.4, 0.3],
+          "scale": [0.15, 0.15, 0.15]
+        },
+        "firstperson_lefthand": {
+          "rotation": [0, 0, 0],
+          "translation": [0, 0.3, 0.25],
+          "scale": [0.15, 0.15, 0.15]
+        }
+      }
+    }]
+  }
+}

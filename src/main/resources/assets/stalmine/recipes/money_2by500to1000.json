@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "stalmine:money_500"
+    },
+    {
+      "item": "stalmine:money_500"
+    }
+  ],
+  "result": {
+    "item": "stalmine:money_1000"
+  }
+}

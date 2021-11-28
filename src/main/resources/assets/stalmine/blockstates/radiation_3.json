@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "stalmine:field_block" },
+        "inventory": { "model": "stalmine:field_block" }
+    }
+}

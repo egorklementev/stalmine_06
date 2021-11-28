@@ -1,0 +1,49 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "stalmine:lighter.obj"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{
+      "transform": {
+        "gui": {
+          "rotation": [0, 180, 30],
+          "translation": [-0.1, 0.35, 0],
+          "scale": [0.6, 0.6, 0.6]
+        },
+        "ground": {
+          "rotation": [0, 0, 0],
+          "translation": [0.1, 0.15, 0.1],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "fixed": {
+          "rotation": [0, 0, 30],
+          "translation": [0.1, 0.25, 0.25],
+          "scale": [0.5, 0.5, 0.5]
+        },
+        "thirdperson_righthand": {
+          "rotation": [0, -90, 0],
+          "translation": [-0.2, 0.2, 0.2],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [0, 90, 0],
+          "translation": [0.15, 0.2, 0.15],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "firstperson_righthand": {
+          "rotation": [0, -80, 0],
+          "translation": [-0.25, 0.5, 0.5],
+          "scale": [0.3, 0.3, 0.3]
+        },
+        "firstperson_lefthand": {
+          "rotation": [-10, 105, 0],
+          "translation": [0.0, 0.5, 0.4],
+          "scale": [0.3, 0.3, 0.3]
+        }
+      }
+    }]
+  }
+}
